@@ -27,11 +27,32 @@
                         <form>
                             <div class="row">
                                 <div class="col">
-                                    <label for="">Ingrese el monto</label>
+                                    <label for="calc_cuotas">Monto</label>
                                 <input type="number"  class="form-control" id="monto" placeholder="Ingrese el monto">
                                 </div>
+                                    <div class="col">
+                                        <label for="calc_cuotas">Tarjeta</label>
+                                            <select class="form-control" id="tc">
+                                            <option>Mastercard</option>
+                                            <option>Visa</option>
+                                            <option>Cencosud</option>
+                                            <option>CMR</option>
+                                            <option>Tarjeta Naranja</option>
+                                            </select>
+                                    </div>
+                                        <div class="col">
+                                            <label for="calc_cuotas">Cuotas</label>
+                                                <select class="form-control" id="cuotas">
+                                                <option>3</option>
+                                                <option>6</option>
+                                                <option>9</option>
+                                                <option>12</option>                                        
+                                                </select>
+                                        </div>
+                            </div>
+                            <div class="row">
                                 <div class="col">
-                                <input type="text" class="form-control" placeholder="Last name">
+                                    <label for="calc_cuotas"><h3>El total de tu cuota es de : $</h3></label>
                                 </div>
                             </div>
                         </form>
