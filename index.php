@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cuotas</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="css/styles.css" tyle="text/css">
     
 </head>
 <body>
@@ -24,8 +24,8 @@
                     </div>
                 <!--Contenido de la ventana-->
                     <div class="modal-body">
-                        <form>
-                            <div class="row">
+                        <form id="form_calc_dni">
+                            <div class="row" id="div_monto-tc_cuota">
                                 <div class="col">
                                     <label for="calc_cuotas">Monto</label>
                                 <input type="number"  class="form-control" id="monto" placeholder="Ingrese el monto">
@@ -52,7 +52,7 @@
                             </div>
                             <div class="row">
                                 <div class="col">
-                                    <label for="calc_cuotas"><h3>El total de tu cuota es de : $</h3></label>
+                                    <label for="calc_cuotas" id="resp_cuota"><h3 >El total de tu cuota es de : $</h3></label>
                                 </div>
                             </div>
                         </form>
