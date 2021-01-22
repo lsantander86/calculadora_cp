@@ -24,7 +24,17 @@
                     </div>
                 <!--Contenido de la ventana-->
                     <div class="modal-body">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, eaque nam non, numquam id nobis hic voluptatibus minima soluta, molestiae quis veritatis vitae harum laborum provident neque?</p>
+                        <form>
+                            <div class="row">
+                                <div class="col">
+                                    <label for="">Ingrese el monto</label>
+                                <input type="number"  class="form-control" id="monto" placeholder="Ingrese el monto">
+                                </div>
+                                <div class="col">
+                                <input type="text" class="form-control" placeholder="Last name">
+                                </div>
+                            </div>
+                        </form>
                     </div>
                 <!--Footer de la ventana-->
                    <div class="modal-footer">
